@@ -110,12 +110,8 @@ li {
   color: #000;
 }
 .description-icon {
-  background: rgba(255,255,255,0.8);
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
   height: 60px;
   width: 60px;
-  padding: 10px;
 }
 select {
   color: #000;
