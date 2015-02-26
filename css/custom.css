@@ -146,4 +146,7 @@ select {
     width: auto;
     margin: auto;
   }
+  #hero h1 {
+    font-size: 38px;
+  }
 }
