@@ -156,6 +156,9 @@ select {
   #hero h3 {
     padding-left: 10px;
   }
+  .bottom-call {
+    padding: 0;
+  }
   #hero .container #mc_embed_signup {
     padding-left: 10px;
   }
