@@ -149,4 +149,14 @@ select {
   #hero h1 {
     font-size: 38px;
   }
+  #hero h3 {
+    font-size: 28px;
+  }
+  #hero h1,
+  #hero h3 {
+    padding-left: 10px;
+  }
+  #hero .container #mc_embed_signup {
+    padding-left: 10px;
+  }
 }
