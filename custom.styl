@@ -1,9 +1,10 @@
-@import 'bower_components/nib'
+blue = #0A71B4
+light-blue = #6FABD0
+orange = #FAB647
 
-@font-face {
-    font-family: Nexa Rust Sans;
-    src: url(font/NexaRustSans-Black.otf);
-}
+form-width = 400px
+
+@import 'bower_components/nib'
 
 #menu
 	position fixed
@@ -12,13 +13,17 @@
 	background rgba(256,256,256,.5)
 
 body
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight 300
+	font-size 18px
 	label
 		font-weight 300
 
+h1,h2
+	font-family 'Pathway Gothic One', sans-serif;
+
 h1, .sei-pronto
-	font-family 'Nexa Rust Sans'
+	letter-spacing .03em
 	
 h2
 	font-size 33px
@@ -26,56 +31,83 @@ h2
 
 //custom
 #hero
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
 	height 700px
-	background url(img/ship2.jpg)
+	background url(img/ship.jpeg)
 	background-size cover
 	background-position center
 	margin 0
-	padding-hero = 40px
+	padding-hero = 0px
+	.logo
+		margin-top 1em
+		position relative
+		top 0
+		z-index 255
+	.hero-background
+		// background rgba(blue,0.8)
+		background linear-gradient(to bottom, rgba(125,185,232,0) 0%,rgba(48,137,197,0.8) 67%,rgba(10,113,180,0.8) 100%)
+		position absolute
+		width 100%
+		height 700px
+		z-index 1
+		top 0
+	.container
+		position relative
+		z-index 256
+		text-align center
 	h1, h3
 		color white
 		font-weight 300
 	h1
-		margin 0 
-		padding 1em 0 0 padding-hero
+		margin 0 auto
+		padding .3em 0 0 padding-hero
 		text-transform uppercase
 		font-weight 800
 		font-size 50px
 	h3
+		line-height: 1.3em;
 		padding-left padding-hero
+		margin-top 1.2em
+		margin-bottom .5em
+	label
+		margin-top .6em
+		margin-bottom .4em
+	h3, label
+		font-size 20px
+		letter-spacing 1px
 
 ul, li
 	list-style-type none
 	padding 0
 	
 #users
-	background #283583
-	color white
+	background white
+	color blue
 	position relative
 	padding 2em 0
 
 #hero .container #mc_embed_signup
-	padding-left: 40px;
+	padding-left: padding-hero;
 
 .mc-field-group
 	float left
 	label
-		margin-top: 1em;
+		margin-top: .3em;
 	input
-		height: 45px;
-		border-radius: 5px;
-		border: 0;
-		width 280px
-		padding 5px;
+		padding 10px 7px
+		height 45px
+		border-radius: 5px
+		border 0
+		width form-width
+		border 2px solid #d8d8d8
+		background white
 
 .btn-mailchimp
 	color white
 	background orange
-	margin-top .7em
+	margin-top 1em
 
 .pattern
-	background url(img/pattern.png)
-	background-repeat repeat
 	opacity .2
 	height 100%
 	width 100%
@@ -85,7 +117,7 @@ ul, li
 	
 .bottom-call
 	color white
-	background: #171F51
+	background: light-blue
 	padding 2em
 	position relative
 	
@@ -100,15 +132,15 @@ ul, li
 		color black
 
 .description-icon
-	background rgba(255,255,255,0.8)
+	background rgba(blue,0.8)
 	border-radius 50%
-	height 60px
-	width 60px
-	padding 10px
+	height 124px
+	width 136px !important
+	padding 0
 
 select
 	color: black;
-	width: 280px;
+	width: form-width;
 	padding: 5px;
 	font-size: 16px;
 	line-height: 1;
@@ -124,6 +156,12 @@ select
 	width: 500px;
 	margin: 0 auto;
 	
+footer
+	display inline-block
+	width 100%
+	background blue
+	color white
+
 @media screen and (max-width: 610px)
 	.bordino-mail
 		border none
