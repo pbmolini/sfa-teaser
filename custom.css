@@ -115,6 +115,9 @@ li {
   background: #fab647;
   margin-top: 1em;
 }
+.btn-mailchimp:hover {
+  color: #9fc7df;
+}
 .pattern {
   opacity: 0.2;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
