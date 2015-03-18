@@ -208,4 +208,16 @@ footer .icons a:focus {
     width: auto;
     margin: auto;
   }
+  #hero .logo {
+    width: 80%;
+  }
+  #hero h1 {
+    font-size: 40px;
+  }
+  #hero input,
+  .mc-field-group input,
+  #hero select,
+  .mc-field-group select {
+    width: 100%;
+  }
 }
