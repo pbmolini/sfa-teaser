@@ -23,7 +23,7 @@ h2 {
 #hero {
   text-shadow: 0 1px 1px rgba(0,0,0,0.7);
   height: 700px;
-  background: url("https://31.media.tumblr.com/891ef82199f28ffa58b213dd0e8e388b/tumblr_mpxrlto3sE1r1546xo1_500.gif");
+  background: url("http://media.giphy.com/media/XuwTEJcwuMYxO/giphy.gif");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -31,10 +31,11 @@ h2 {
   margin: 0;
 }
 #hero .logo {
-  margin-top: 1em;
+  margin-top: 5em;
   position: relative;
   top: 0;
   z-index: 255;
+  width: 600px;
 }
 #hero .hero-background {
   background: -webkit-linear-gradient(top, rgba(125,185,232,0) 0%, rgba(48,137,197,0.8) 67%, rgba(10,113,180,0.8) 100%);
@@ -149,9 +150,9 @@ li {
   background: rgba(10,113,180,0.8);
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  height: 124px;
+  height: 132px;
   width: 136px !important;
-  padding: 0;
+  padding: 10px;
 }
 select {
   color: #000;
