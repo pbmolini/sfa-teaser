@@ -149,7 +149,7 @@ li {
 .mc-field-group input {
   color: #000;
 }
-.description-icon {
+.description-icon-host {
   background: rgba(10,113,180,0.8);
   -webkit-border-radius: 50%;
   border-radius: 50%;
@@ -159,8 +159,22 @@ li {
   display: inline-block;
   line-height: 104px;
 }
-.description-icon img {
-  width: 100%;
+.description-icon-host img {
+  width: 45%;
+  display: inline-block;
+}
+.description-icon-guest {
+  background: rgba(250,182,71,0.8);
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  height: 132px;
+  width: 136px !important;
+  padding: 10px;
+  display: inline-block;
+  line-height: 104px;
+}
+.description-icon-guest img {
+  width: 45%;
   display: inline-block;
 }
 select {
