@@ -23,64 +23,70 @@ h2 {
 nav {
   margin-top: 1em;
   text-align: left;
+  z-index: 256;
 }
+position relative,
 #hero {
   text-shadow: 0 1px 1px rgba(0,0,0,0.7);
   height: 750px;
-  background: url("../img/sfondi/1.jpg");
+  background: url("../img/3.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   background-position: center;
   margin: 0;
 }
+position relative .logo,
 #hero .logo {
-  margin-top: 5em;
   position: relative;
   top: 0;
   z-index: 255;
-  width: 600px;
+  width: 500px;
 }
+position relative .hero-background,
 #hero .hero-background {
-  background: -webkit-linear-gradient(top, rgba(125,185,232,0) 0%, rgba(48,137,197,0.8) 67%, rgba(10,113,180,0.8) 100%);
-  background: -moz-linear-gradient(top, rgba(125,185,232,0) 0%, rgba(48,137,197,0.8) 67%, rgba(10,113,180,0.8) 100%);
-  background: -o-linear-gradient(top, rgba(125,185,232,0) 0%, rgba(48,137,197,0.8) 67%, rgba(10,113,180,0.8) 100%);
-  background: -ms-linear-gradient(top, rgba(125,185,232,0) 0%, rgba(48,137,197,0.8) 67%, rgba(10,113,180,0.8) 100%);
-  background: linear-gradient(to bottom, rgba(125,185,232,0) 0%, rgba(48,137,197,0.8) 67%, rgba(10,113,180,0.8) 100%);
   position: absolute;
   width: 100%;
   height: 750px;
   z-index: 1;
   top: 0;
 }
+position relative .container,
 #hero .container {
   position: relative;
   z-index: 256;
   text-align: center;
 }
+position relative h1,
 #hero h1,
+position relative h2,
+#hero h2,
+position relative h3,
 #hero h3 {
   color: #fff;
   font-weight: 300;
 }
+position relative h1,
 #hero h1 {
   margin: 0 auto;
   padding: 0.3em 0 0 0px;
-  text-transform: uppercase;
-  font-weight: 800;
   font-size: 50px;
 }
+position relative h3,
 #hero h3 {
   line-height: 1.3em;
   padding-left: 0px;
   margin-top: 1.2em;
   margin-bottom: 0.5em;
 }
+position relative label,
 #hero label {
   margin-top: 0.6em;
   margin-bottom: 0.4em;
 }
+position relative h3,
 #hero h3,
+position relative label,
 #hero label {
   font-size: 20px;
   letter-spacing: 1px;
@@ -150,18 +156,8 @@ li {
 .mc-field-group input {
   color: #000;
 }
-.description-icon {
-  background: rgba(10,113,180,0.8);
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  height: 132px;
-  width: 136px !important;
-  padding: 10px;
-  display: inline-block;
-  line-height: 104px;
-}
 .description-icon img {
-  width: 100%;
+  width: 25%;
   display: inline-block;
 }
 select {
