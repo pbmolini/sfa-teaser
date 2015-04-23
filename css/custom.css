@@ -24,12 +24,11 @@ nav {
   margin-top: 1em;
   text-align: left;
   z-index: 256;
+  position: relative;
 }
-position relative,
 .language {
   color: #fff;
 }
-position relative:hover,
 .language:hover {
   background: none !important;
   color: #fff !important;
@@ -72,12 +71,12 @@ position relative:hover,
 }
 #hero h1 {
   margin: 0 auto;
-  padding: 0.3em 0 0 0px;
+  padding: 0.3em 0 0 0;
   font-size: 50px;
 }
 #hero h3 {
   line-height: 1.3em;
-  padding-left: 0px;
+  padding-left: 0;
   margin-top: 1.2em;
   margin-bottom: 0.5em;
 }
@@ -102,7 +101,7 @@ li {
   padding: 2em 0;
 }
 #hero .container #mc_embed_signup {
-  padding-left: padding-hero;
+  padding-left: 0;
 }
 .mc-field-group {
   float: left;
