@@ -26,6 +26,15 @@ nav {
   z-index: 256;
 }
 position relative,
+.language {
+  color: #fff;
+}
+position relative:hover,
+.language:hover {
+  background: none !important;
+  color: #fff !important;
+  text-decoration: underline !important;
+}
 #hero {
   text-shadow: 0 1px 1px rgba(0,0,0,0.7);
   height: 750px;
@@ -36,14 +45,12 @@ position relative,
   background-position: center;
   margin: 0;
 }
-position relative .logo,
 #hero .logo {
   position: relative;
   top: 0;
   z-index: 255;
   width: 500px;
 }
-position relative .hero-background,
 #hero .hero-background {
   background: rgba(10,113,180,0.4);
   position: absolute;
@@ -52,42 +59,33 @@ position relative .hero-background,
   z-index: 1;
   top: 0;
 }
-position relative .container,
 #hero .container {
   position: relative;
   z-index: 256;
   text-align: center;
 }
-position relative h1,
 #hero h1,
-position relative h2,
 #hero h2,
-position relative h3,
 #hero h3 {
   color: #fff;
   font-weight: 300;
 }
-position relative h1,
 #hero h1 {
   margin: 0 auto;
   padding: 0.3em 0 0 0px;
   font-size: 50px;
 }
-position relative h3,
 #hero h3 {
   line-height: 1.3em;
   padding-left: 0px;
   margin-top: 1.2em;
   margin-bottom: 0.5em;
 }
-position relative label,
 #hero label {
   margin-top: 0.6em;
   margin-bottom: 0.4em;
 }
-position relative h3,
 #hero h3,
-position relative label,
 #hero label {
   font-size: 20px;
   letter-spacing: 1px;
